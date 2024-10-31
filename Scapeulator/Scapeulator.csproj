@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\Images\Annulus.png" />
+      <None Remove="Assets\Images\Circle.png" />
+      <None Remove="Assets\Images\Circle_Border.png" />
+      <None Remove="Assets\Images\Rectangle.png" />
+      <None Remove="Assets\Images\Rectangle_Border.png" />
+      <None Remove="Assets\Images\Trapezoid.png" />
+      <None Remove="Assets\Images\Triangle.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="Assets\Images\Annulus.png" />
+      <Resource Include="Assets\Images\Circle.png" />
+      <Resource Include="Assets\Images\Circle_Border.png" />
+      <Resource Include="Assets\Images\Rectangle.png" />
+      <Resource Include="Assets\Images\Rectangle_Border.png" />
+      <Resource Include="Assets\Images\Trapezoid.png" />
+      <Resource Include="Assets\Images\Triangle.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\" />
+      <Folder Include="Views\" />
+    </ItemGroup>
+
+</Project>
